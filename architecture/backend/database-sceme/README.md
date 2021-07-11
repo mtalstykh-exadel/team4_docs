@@ -9,8 +9,7 @@ stores
 # test table
 stores
 * the date the test was created
-* the date the grade was updated
-* after the teacher checked it
+* the date the grade was updated after the teacher checked it
 * the start and end date of the test
 * the status of the test
 * final score
@@ -18,7 +17,6 @@ stores
 # question table
 stores
 * question text
-* question weight from 0 to 10
 * question availability
 * FOREIGN KEYS
     * (level_id) to the level table
