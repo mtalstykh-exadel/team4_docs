@@ -1,10 +1,3 @@
-# Requests URL
-
-The current version of the server is deployed at
-
-**[https://untitled-testing-system.herokuapp.com]()**
-
-
 # Authentication
 
 ### Request
@@ -21,7 +14,7 @@ user's credentials:
 ### Response
 
 If the credentials, provided in the request's body, are correct, you'll get
-a response with a single string: 
+a response with a single string:
 * **JWT token**.
 
 Otherwise, you'll get `401 Unauthorized` response.
@@ -61,20 +54,3 @@ All the requests should contain the following **header**:
 | `Authorization` | `Bearer <JWT_token>` |
 
 Replace `<JWT_token>` with the string you got from the authentication response.
-
-
-# Get name
-
-### Request
-
-`/name` endpoint is used to get user's name.
-
-You should make **GET** request. Don't forget to provide **authorization token**
-in the request's header.
-
-### Response
-
-If the JWT token is correct, you'll get a response with a single string:
-* **User's name**
-
-Otherwise, you'll get `403 Forbidden` response.
