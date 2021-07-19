@@ -86,7 +86,7 @@ You will get all tests from the database in JSON format.
 }
 ]
 ```
-#Assign test
+# Assign test
 
 The query is used to assign a test for the user (HR's ability).
 
@@ -116,7 +116,7 @@ Otherwise, you will get `404 Not Found` response
 
 `9`
 
-#Start not assigned test
+# Start not assigned test
 
 The request is used when the user wants to learn one's level by oneself (without any HRs).
 
@@ -142,7 +142,8 @@ You will get id of the created test.
 
 `10`
 
-#Start assigned test
+# Start assigned test
+
 The request is used when the user starts test which was assigned by an HR.
 
 ### Type
@@ -167,7 +168,8 @@ Otherwise, you will get `404 Not Found` response
 ### Request:
 `POST` `/start/1`
 
-#Finish test
+# Finish test
+
 The request is used to finish tests.
 
 ### Type
