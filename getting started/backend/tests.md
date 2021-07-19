@@ -1,4 +1,4 @@
-# Get test by ID
+# Get test by ID 
 
 The query is used to get a single test from the database by its id.
 
@@ -25,7 +25,7 @@ Otherwise, you will get `404 Not Found` response.
 ### Request:
 `GET` `/tests/1`
 
-### Response:
+### Response (will have more information in future):
 
 ```
 {
@@ -39,7 +39,7 @@ Otherwise, you will get `404 Not Found` response.
 }
 ```
 
-# Get all tests
+# Get all tests (experimental)
 
 The query is used to get all tests from the database.
 
@@ -61,7 +61,7 @@ You will get all tests from the database in JSON format.
 ### Request:
 `GET` `/tests/`
 
-### Response:
+### Response (will have more information in future):
 
 
 ```
@@ -86,7 +86,7 @@ You will get all tests from the database in JSON format.
 }
 ]
 ```
-# Assign test
+# Assign test (to be updated)
 
 The query is used to assign a test for the user (HR's ability).
 
@@ -116,7 +116,7 @@ Otherwise, you will get `404 Not Found` response
 
 `9`
 
-# Start not assigned test
+# Start not assigned test (to be updated)
 
 The request is used when the user wants to learn one's level by oneself (without any HRs).
 
@@ -227,7 +227,7 @@ Otherwise, you will get `404 Not Found` response
 
 `evaluation`: `40`
 
-# Remove test by ID
+# Remove test by ID (experimental)
 
 The query is used to remove a test from the database
 
