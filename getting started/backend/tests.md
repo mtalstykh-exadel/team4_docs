@@ -160,7 +160,7 @@ The query has one parameter in URL:
 
 ### Response
 
-If the test exists, you will have `200 OK` response.
+If the test exists, you will get `200 OK` response.
 
 Otherwise, you will get `404 Not Found` response
 
@@ -188,7 +188,7 @@ The query has one parameter in URL (`<testID>`) and one in request body (`evalua
 
 ### Response
 
-If the test exists, you will have `200 OK` response.
+If the test exists, you will get `200 OK` response.
 
 Otherwise, you will get `404 Not Found` response
 
@@ -209,7 +209,7 @@ The request is used to update score after coach check.
 
 ### Request
 
-The query has one parameter in URL (<`testID`>) and one in request body (`evaluation`):
+The query has one parameter in URL (`<testID>`) and one in request body (`evaluation`):
 
 * `<testID>` -  id of the test to update
 
@@ -217,7 +217,7 @@ The query has one parameter in URL (<`testID`>) and one in request body (`evalua
 
 ### Response
 
-If the test exists, you will have `200 OK` response.
+If the test exists, you will get `200 OK` response.
 
 Otherwise, you will get `404 Not Found` response
 
@@ -227,7 +227,8 @@ Otherwise, you will get `404 Not Found` response
 
 `evaluation`: `40`
 
-#Remove test by ID
+# Remove test by ID
+
 The query is used to remove a test from the database
 
 ### Type
@@ -244,7 +245,7 @@ The query has one parameter in URL:
 
 ### Response
 
-If the test exists, you will have `200 OK` response.
+If the test exists, you will get `200 OK` response.
 
 Otherwise, you will get `404 Not Found` response
 
