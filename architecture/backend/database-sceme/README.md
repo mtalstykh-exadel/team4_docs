@@ -13,7 +13,9 @@ stores
 * the start and end date of the test
 * the status of the test
 * final score
-* FOREIGN KEY (id of the user who passed the test) for the waist user
+* FOREIGN KEYS 
+  * (user_id, id of the user who passed the test) for the waist user,
+  * (coach_id, id of the user who checked the test) for the waist user
 # question table
 stores
 * question text
@@ -47,3 +49,10 @@ stores
     * (question_id) to the question table (id),
     * (choosen_answer_id) to the answer (id) table,
     * (file_answer_id) to the file_answer (id) table
+#coach_grade table
+stores
+* grade for question of 3 or 4 module
+* FOREIGN KEYS
+  * (test_id) to test (id) table,
+  * (question_id) to the question table (id)
+  
