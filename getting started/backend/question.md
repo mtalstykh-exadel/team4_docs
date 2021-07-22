@@ -1,5 +1,4 @@
-
-# Get question by ID 
+# Get question by ID
 
 The request is used to get a single question from the database by it's id.
 
@@ -10,6 +9,7 @@ The request is used to get a single question from the database by it's id.
 ## Example
 
 ### Request:
+
 `GET` `/question/1`
 
 ### Response (will have more information in future):
@@ -33,10 +33,13 @@ The request is used to add a new question.
 | `POST`|`/question/`|`JSON object`|`200 OK`/`500 Internal Server Error`|
 
 ## Example
+
 ### Request:
+
 `POST` `/question/`
 
 #### Request Body
+
 ```
 {
     "questionBody":"some text",
@@ -46,7 +49,7 @@ The request is used to add a new question.
 }
 ```
 
-### Response 
+### Response
 
 ```
 {
@@ -62,13 +65,14 @@ The request is used to add a new question.
 
 The request is used to archive the question.
 
-
 | Type | URL | Request | Response |
 |------|-----|---------|----------|
 | `DELETE`|`/question/<questionID>`|`<questionID>`|`200 OK`/`404 Not found`|
 
 ## Example
+
 ### Request:
+
 `DELETE` `/question/1`
 
 ### Response:
@@ -84,7 +88,9 @@ The request is used to change the question.
 | `PUT`|`/question/<questionID>`|`<questionID> and JSON object`|`200 OK`/`404 Not found`|
 
 ## Example
+
 ### Request:
+
 `PUT` `/question/1`
 
 ```
@@ -95,6 +101,7 @@ The request is used to change the question.
 "available": false
 }
 ```
+
 non-updatable fields may not be registered
 
 ```
@@ -104,6 +111,7 @@ non-updatable fields may not be registered
 ```
 
 ### Response:
+
 ```
 {
 "questionBody": "new text to test update",
