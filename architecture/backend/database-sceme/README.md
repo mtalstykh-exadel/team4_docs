@@ -29,6 +29,13 @@ stores
 * FOREIGN KEYS
     * (test_id) to the test table,
     * (question_id) to the question table
+# error_report table
+stores
+* id
+* report_body
+* FOREIGN KEYS
+   * (question_id) to the question table,
+   * (test_id) to the test table
 # answer table
 stores
 * answer text
@@ -42,12 +49,12 @@ stores
 stores
 * a link to the task audio file
 * FOREIGN KEY (question_id) to the question table
-# choosen_option table
+# chosen_option table
 stores
 * FOREIGN KEYS
     * (test_id) to test (id) table,
     * (question_id) to the question table (id),
-    * (choosen_answer_id) to the answer (id) table,
+    * (chosen_answer_id) to the answer (id) table,
     * (file_answer_id) to the file_answer (id) table
 #coach_grade table
 stores
