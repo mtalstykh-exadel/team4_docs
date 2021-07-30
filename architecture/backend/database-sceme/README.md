@@ -5,6 +5,7 @@ stores
 * username
 * password
 * previously selected interface language
+* avatar URL
 * FOREIGN KEY (user_role) for the user_role table
 # test table
 stores
