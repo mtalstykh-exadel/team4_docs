@@ -4,6 +4,7 @@ stores
 * name
 * username
 * password
+* avatar
 * previously selected interface language
 * avatar URL
 * FOREIGN KEY (user_role) for the user_role table
@@ -16,7 +17,8 @@ stores
 * final score
 * FOREIGN KEYS 
   * (user_id, id of the user who passed the test) for the waist user,
-  * (coach_id, id of the user who checked the test) for the waist user
+  * (coach_id, id of the user who checked the test) for the waist user,
+  * (level_id) level of the test
 # question table
 stores
 * question text
@@ -45,18 +47,23 @@ stores
 # file_answer table
 stores
 * a link to the user's audio file
-* a FOREIGN KEY (question_id) to the question table
+* a FOREIGN KEYS
+  * (question_id) to the question table
+  * (test_id) to the test 
 # content_file table
 stores
 * a link to the task audio file
-* FOREIGN KEY (question_id) to the question table
+# question_content_file table
+stores
+* FOREIGN KEYS
+  * (question_id) to the question table
+  * (content_file_id) to the content_file table
 # chosen_option table
 stores
 * FOREIGN KEYS
     * (test_id) to test (id) table,
     * (question_id) to the question table (id),
-    * (chosen_answer_id) to the answer (id) table,
-    * (file_answer_id) to the file_answer (id) table
+    * (chosen_answer_id) to the answer (id) table
 #coach_grade table
 stores
 * grade for question of 3 or 4 module
