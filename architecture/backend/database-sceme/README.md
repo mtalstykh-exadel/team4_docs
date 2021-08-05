@@ -10,9 +10,10 @@ stores
 * FOREIGN KEY (user_role) for the user_role table
 # test table
 stores
-* the date the test was created
-* the date the grade was updated after the teacher checked it
+* the date the test was assigned
+* the date the coach verified it
 * the start and end date of the test
+* the deadline of the test
 * the status of the test
 * final score
 * FOREIGN KEYS 
