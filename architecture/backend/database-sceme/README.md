@@ -15,7 +15,6 @@ stores
 * the start and end date of the test
 * the deadline of the test
 * the status of the test
-* final score
 * FOREIGN KEYS 
   * (user_id, id of the user who passed the test) for the waist user,
   * (coach_id, id of the user who checked the test) for the waist user,
@@ -71,4 +70,10 @@ stores
 * FOREIGN KEYS
   * (test_id) to test (id) table,
   * (question_id) to the question table (id)
-  
+# module_grade table
+stores
+* grade for a single module of a test
+* FOREIGN KEYS
+  * (test_id) to the test (id) table
+  * (question_id) to the question (id) table
+    
