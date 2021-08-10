@@ -15,7 +15,6 @@ stores
 * the start and end date of the test
 * the deadline of the test
 * the status of the test
-* final score
 * FOREIGN KEYS 
   * (user_id, id of the user who passed the test) for the waist user,
   * (coach_id, id of the user who checked the test) for the waist user,
