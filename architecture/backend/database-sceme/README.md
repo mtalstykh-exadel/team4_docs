@@ -71,4 +71,10 @@ stores
 * FOREIGN KEYS
   * (test_id) to test (id) table,
   * (question_id) to the question table (id)
-  
+# module_grade table
+stores
+* grade for a single module of a test
+* FOREIGN KEYS
+  * (test_id) to the test (id) table
+  * (question_id) to the question (id) table
+    
