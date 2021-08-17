@@ -84,3 +84,11 @@ stores
 stores
 * id
 * FOREIGN KEY (test_id) to the test (id) table (is used to recover 40 minutes timers after server restarts)
+# notification table
+stores
+* id
+* type of the notification
+* time when the notification was created
+* FOREIGN KEYS
+  * (user_id) to the user (id) table
+  * (test_id) to the test (id) table
