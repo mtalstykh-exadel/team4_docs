@@ -16,7 +16,8 @@ stores
 * the deadline of the test
 * the status of the test
 * the priority of the test
-* the finish time of the test (the test is automatically finished)  
+* the finish time of the test (the test is automatically finished)
+* flag if the test is available (false after deassign, if the user haven't started the test)
 * FOREIGN KEYS 
   * (user_id, id of the user who passed the test) for the waist user,
   * (coach_id, id of the user who checked the test) for the waist user,
