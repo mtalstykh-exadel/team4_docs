@@ -17,14 +17,14 @@ There are 8 users in the database now:
    
    |       Username  |        Login             |   Password        |
    |-----------------|--------------------------|-------------------|
-   | Russian User    | rus_user@northsixty.com  | rus_user_password |
-   | English User    | eng_user@northsixty.com  | eng_user_password |
-   | Russian HR      | rus_hr@northsixty.com    | rus_hr_password   |
-   | English HR      | eng_hr@northsixty.com    | eng_hr_password   |
-   | Russian Coach   | rus_coach@northsixty.com | rus_coach_password|
-   | English Coach   | eng_coach@northsixty.com | eng_coach_password|
-   | Russian Admin   | rus_admin@northsixty.com | rus_admin_password|
-   | English Admin   | eng_admin@northsixty.com | eng_admin_password|
+   | Katie Murphy    | rus_user@northsixty.com  | rus_user_password |
+   | Roger Bell    | eng_user@northsixty.com  | eng_user_password |
+   | Michelle Phillips      | rus_hr@northsixty.com    | rus_hr_password   |
+   | Vanessa Clark      | eng_hr@northsixty.com    | eng_hr_password   |
+   | Valerie Rivera   | rus_coach@northsixty.com | rus_coach_password|
+   | Tom Fields   | eng_coach@northsixty.com | eng_coach_password|
+   | William Vega   | rus_admin@northsixty.com | rus_admin_password|
+   | James Berry   | eng_admin@northsixty.com | eng_admin_password|
 
    Your JSON will look like this:
 ````
