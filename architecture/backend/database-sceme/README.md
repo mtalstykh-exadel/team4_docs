@@ -84,6 +84,7 @@ stores
 # timer table
 stores
 * id
+* status of the test for the timer (assigned/started)
 * FOREIGN KEY (test_id) to the test (id) table (is used to recover 40 minutes timers after server restarts)
 # notification table
 stores
